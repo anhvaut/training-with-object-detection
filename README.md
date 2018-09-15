@@ -25,8 +25,8 @@ Copy your dataset to folder: xml file to annotations, images .jpg to images fold
 ```
 + python xml_to_csv.py
 + Divide output_lables.csv thanhf 2 file train_lables.csv va test.csv
-+ python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=train.record
-+ python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=test.record
++ python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=data/train.record
++ python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=data/test.record
 
 Copy folders: data, images, training, model, config file
 
